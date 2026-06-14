@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  sentiment-api:
+    build: .
+    container_name: sentiment-analyzer-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+    restart: unless-stopped

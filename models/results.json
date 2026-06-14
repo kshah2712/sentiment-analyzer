@@ -1,0 +1,6 @@
+{
+  "model": "distilbert-base-uncased-finetuned-sst-2-english",
+  "accuracy": 0.837,
+  "f1": 0.837,
+  "test_samples": 1000
+}
